@@ -1,0 +1,8 @@
+## Interface: 11509, 38002, 50504, 120007, 120105, 16001
+## Title: RXP Decrypted Guides
+## Author: ImSp4rky
+## Version: 1.0.3
+## Notes: Decrypted Forever guides for RestedXP
+## Dependencies: RXPGuides
+## Group: RXPGuides
+Forever_Leveling_Guide_Both_Factions.lua [AllowLoadTextLocale enUS,deDE,esES,esMX,frFR,itIT,koKR,ptBR,ruRU,zhCN,zhTW]
