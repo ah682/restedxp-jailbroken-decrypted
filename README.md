@@ -59,8 +59,6 @@ This snapshot was packaged on **12 November 2026**. The exported guide revision 
 
 ## How it works
 
-The original export was tied to an account. It was converted once into readable guide text and packaged as a separate addon named `RXPDecryptedGuides`.
-
 At startup, the companion passes that text to `RXPGuides.RegisterGuide`. The normal RXPGuides addon handles the guide window, navigation, quest tracking and step progression. Its code does not need patching.
 
 The companion has no user ID check, BattleTag activation or paywall check at runtime. It contains the guide text directly and declares `RXPGuides` as its dependency, so the main addon loads first. The original account named export and personal game settings are not part of this repository or its release downloads.
